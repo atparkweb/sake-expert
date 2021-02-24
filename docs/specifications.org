@@ -1,0 +1,18 @@
+* Rules and Logic Definition
+
+** Production Rules
+
+Suggest product(Name, Brand, Grade, Region, Category, Food, Temp)
+Implies that the Person(name) 
+
+- likes(Brand) or
+- likes(Grade) or
+- likes(Region) or
+- likes(Category) and
+-------------------
+- is eating(Food) and
+-------------------
+- likes(Temp)
+
+** Predicate Logic:
+P(n, b, g, r, c, f, t) -> L(b) ∨ L(g) v L(r) v L(c) ∧ E(f) ∧ L(t) 
