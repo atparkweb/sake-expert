@@ -1,0 +1,4 @@
+* TODO: 
+- [ ] Pull data from CSV file
+- [ ] Parse CSV data
+- [ ] Generate facts based on data
