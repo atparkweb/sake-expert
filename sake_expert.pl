@@ -3,7 +3,6 @@
 :- use_module(mock_data).
 
 suggest(Prod) :-
-  write('Do you like sake? [y/n]'), read(_),
   write('What flavor profile? [light/dry | light/sweet | rich/dry | rich/sweet]'), read(T0),
   write('What prefecture?: '), read(P0),
   write('What food? [sushi | meat | cheese | fish | fruit]: '), read(F0),
