@@ -15,4 +15,24 @@ product('Yuki No Boshi Junmai', Taste, Prefecture, Food, Temp) :-
     Prefecture = akita,
     (Food = fruit; Food = cheese),
     (Temp = cold; Temp = room),!.
-
+product('Harukasumi Junmai Daiginjo', Taste, Prefecture, Food, Temp) :-
+    Taste = light/dry,
+    Prefecture = akita,
+    (Food = fish; Food = sushi),
+    (Temp = cold; Temp = room),!.
+product('Kuribayashi Junmai', Taste, Prefecture, Food, Temp) :-
+    Taste = rich/sweet,
+    Prefecture = akita,
+    (Food = meat; Food = cheese),
+    (Temp = warm; Temp = room),!.
+product('Hakkaisan Junmai Ginjo', Taste, Prefecture, Food, Temp) :-
+    Taste = light/sweet,
+    Prefecture = niigata,
+    (Food = fish; Food = sushi),
+    (Temp = cold; Temp = room),!.
+product('No Product Found', Taste, Prefecture, Food, Temp) :-
+    Taste = _,
+    Prefecture = _,
+    Food = _,
+    Temp = _,!.
+    
