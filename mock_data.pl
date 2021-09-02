@@ -25,6 +25,16 @@ product('Kuribayashi Junmai', Taste, Prefecture, Food, Temp) :-
     Prefecture = akita,
     (Food = meat; Food = cheese),
     (Temp = warm; Temp = room),!.
+product('Denchu Junmai Daiginjo', Taste, Prefecture, Food, Temp) :-
+    (Taste = light/dry; Taste = light/sweet),
+    Prefecture = aomori,
+    (Food = sushi; Food = cheese; Food = fish; Food = meat; Food = fruit),
+    (Temp = warm; Temp = room; Temp = cold; Temp = ice; Temp = warm),!.
+product('Uragasumi Junmai Ginjo', Taste, Prefecture, Food, Temp) :-
+    Taste = rich/dry,
+    Prefecture = miyagi,
+    (Food = fish; Food = meat),
+    (Temp = cold; Temp = room; Temp = hot),!.
 product('Hakkaisan Junmai Ginjo', Taste, Prefecture, Food, Temp) :-
     Taste = light/sweet,
     Prefecture = niigata,
