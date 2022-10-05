@@ -1,4 +1,4 @@
-:- module(mock_data, [product/5]).
+:- module(kb, [product/5]).
 
 product('Yuki No Boshi Junmai Daiginjo', Taste, Prefecture, Food, Temp) :-
     Taste = light/dry,
@@ -45,4 +45,4 @@ product('No Product Found', Taste, Prefecture, Food, Temp) :-
     Prefecture = _,
     Food = _,
     Temp = _,!.
-    
+

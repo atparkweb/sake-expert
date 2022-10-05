@@ -1,6 +1,6 @@
-:- module(sake_expert, [suggest/1]).
+:- module(start, [suggest/1]).
 
-:- use_module(mock_data).
+:- use_module(kb).
 
 suggest(Prod) :-
   write('What flavor profile? [ light/dry | light/sweet | rich/dry | rich/sweet ]: '), read(T0),

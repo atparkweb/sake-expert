@@ -8,7 +8,7 @@ something with it in a day.
 Built to run on [SWIProlog](https://www.swi-prolog.org/)
 
 ## How to run?
-1. From command line: `$ swipl sake_expert.pl`, which starts swipl session
-2. In swipl session: `?- sake_expert:suggest(Prod)`
+1. From command line: `$ swipl start.pl`, which starts swipl session
+2. In swipl session: `?- start:suggest(Prod)`
 3. Answer questions by typing choice and end with `.`
 
